@@ -1,0 +1,31 @@
+{
+  "name": "dropsuit-clnstr",
+  "version": "1.0.10",
+  "description": "DropSuit NLP - clnstr function: A JavaScript and Node.js library for cleaning and formatting strings",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ladooniani/dropsuit.git"
+  },
+  "keywords": [
+    "string cleaning",
+    "string formatting",
+    "string manipulation",
+    "text processing"
+  ],
+  "author": "Lado Oniani",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ladooniani/dropsuit/issues"
+  },
+  "homepage": "https://github.com/ladooniani/dropsuit#readme",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
