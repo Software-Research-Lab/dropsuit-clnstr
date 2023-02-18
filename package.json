@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ladooniani/dropsuit.git"
+    "url": "git+https://github.com/ladooniani/dropsuit-clnstr.git"
   },
   "keywords": [
     "string cleaning",
@@ -22,9 +22,9 @@
   "author": "Lado Oniani",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/ladooniani/dropsuit/issues"
+    "url": "https://github.com/ladooniani/dropsuit-clnstr/issues"
   },
-  "homepage": "https://github.com/ladooniani/dropsuit#readme",
+  "homepage": "https://github.com/ladooniani/dropsuit-clnstr#readme",
   "devDependencies": {
     "mocha": "^10.2.0"
   }
