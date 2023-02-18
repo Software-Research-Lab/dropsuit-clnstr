@@ -1,6 +1,6 @@
 {
   "name": "dropsuit-clnstr",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "DropSuit NLP - clnstr function: A JavaScript and Node.js library for cleaning and formatting strings",
   "main": "index.js",
   "directories": {
