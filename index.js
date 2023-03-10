@@ -279,46 +279,6 @@ function punctMakrs2sortA() {
   return punctMakrs2sortA;
 }
 
-function punctMakrs3sortB() {
-  let punctMakrs3sortB = [
-    "\\[",
-    "\\!",
-    '\\"',
-    "\\#",
-    "\\$",
-    "\\%",
-    "\\&",
-    "\\'",
-    "\\(",
-    "\\)",
-    "\\*",
-    "\\+",
-    "\\,",
-    "\\\\",
-    "\\-",
-    "\\.",
-    "\\/",
-    "\\:",
-    "\\;",
-    "\\<",
-    "\\=",
-    "\\>",
-    "\\?",
-    "\\@",
-    "\\[",
-    "\\]",
-    "\\^",
-    "\\_",
-    "\\`",
-    "\\{",
-    "\\|",
-    "\\}",
-    "\\~",
-    "\\]",
-  ];
-  return punctMakrs3sortB;
-}
-
 //#endregion
 
 //#region Export Module Constructor
