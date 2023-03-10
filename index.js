@@ -96,8 +96,8 @@ function clnstr_f(input, dispout) {
 }
 
 function extraPunctuation(output) {
-  let punctReg = punctMakrs1sortA();
-  let punct = punctMakrs2sortA();
+  const punctReg = /[!"#$%&'()*+,\-./:;<=>?@\[\\\]^_`{|}~]/g;
+  const punct = ',/.,\';=-`?><:{}+_)(*&^%$#@!~][`"`"';
   for (let i = 0; i < punct.length; i++) {
     output = output
       .toString()
@@ -166,117 +166,6 @@ function display(dispout, input, output) {
       line
     );
   }
-}
-
-//#endregion
-
-//#region Punct marks
-
-function punctMakrs1sortA() {
-  let p1 = /\,+/g;
-  let p2 = /\/+/g;
-  let p3 = /\.+/g;
-  let p4 = /\,+/g;
-  let p5 = /\'+/g;
-  let p6 = /\;+/g;
-  let p7 = /\=+/g;
-  let p8 = /\-+/g;
-  let p9 = /\`+/g;
-  let p10 = /\?+/g;
-  let p11 = /\>+/g;
-  let p13 = /\<+/g;
-  let p14 = /\:+/g;
-  let p15 = /\}+/g;
-  let p16 = /\{+/g;
-  let p17 = /\++/g;
-  let p18 = /\_+/g;
-  let p19 = /\)+/g;
-  let p20 = /\(+/g;
-  let p21 = /\*+/g;
-  let p22 = /\&+/g;
-  let p23 = /\^+/g;
-  let p24 = /\%+/g;
-  let p25 = /\$+/g;
-  let p26 = /\#+/g;
-  let p27 = /\@+/g;
-  let p28 = /\!+/g;
-  let p29 = /\~+/g;
-  let p30 = /\]+/g;
-  let p31 = /\[+/g;
-  let p32 = /\"+/g;
-
-  let punctMakrs1sortA = [
-    p1,
-    p2,
-    p3,
-    p4,
-    p5,
-    p6,
-    p7,
-    p8,
-    p9,
-    p10,
-    p11,
-    p13,
-    p14,
-    p15,
-    p16,
-    p17,
-    p18,
-    p19,
-    p20,
-    p21,
-    p22,
-    p23,
-    p24,
-    p25,
-    p26,
-    p27,
-    p28,
-    p29,
-    p30,
-    p31,
-    p32,
-  ];
-
-  return punctMakrs1sortA;
-}
-
-function punctMakrs2sortA() {
-  let punctMakrs2sortA = [
-    ",",
-    "/",
-    ".",
-    ",",
-    "'",
-    ";",
-    "=",
-    "-",
-    "`",
-    "?",
-    ">",
-    "<",
-    ":",
-    "}",
-    "{",
-    "+",
-    "_",
-    ")",
-    "(",
-    "*",
-    "&",
-    "^",
-    "%",
-    "$",
-    "#",
-    "@",
-    "!",
-    "~",
-    "]",
-    "[",
-    '`"`',
-  ];
-  return punctMakrs2sortA;
 }
 
 //#endregion

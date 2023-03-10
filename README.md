@@ -1,6 +1,8 @@
 [<img alt="TAI Lab." width="59px" src="https://github.com/ladooniani/tailab/blob/master/assets/tai_lab_terbinari_cbm_project_logo.png" />](https://github.com/ladooniani/dropsuit#readme)
 
+<!--
 [![npm version](https://img.shields.io/npm/v/dropsuit-clnstr.svg?style=flat)](https://www.npmjs.com/package/dropsuit-clnstr) [![npm](https://img.shields.io/npm/dt/dropsuit-clnstr.svg?style=flat-square)](https://www.npmjs.com/package/dropsuit-clnstr) [![License](https://img.shields.io/npm/l/dropsuit-clnstr.svg)](https://www.npmjs.com/package/dropsuit-clnstr)
+-->
 
 # Overview of [DropSuit](https://github.com/ladooniani/dropsuit#readme) NLP and the clnstr Function
 
@@ -105,11 +107,11 @@ Object:
 ```
 
 The example code shows how the input string is processed using the `clnstr()` method and the output returned by the function. The output is an object that contains three properties, `stTxt`, `stNmb`, `stPnc` which are the results of applying the methods `txt()`, `nmb()` and `pnc()` respectively.
-
+<!--
 ## Links
 
 - npm: https://www.npmjs.com/package/dropsuit-clnstr
-
+-->
 ## Supporting DropSuit
 
 DropSuit is an open-source library and I am dedicated to ensuring its continued development and improvement. If you have any questions, feedback, or encounter any issues, please reach out through the [support via PayPal](https://www.paypal.com/paypalme/dropsuit?country.x=GE&locale.x=en_US), and read more about [support details](https://github.com/ladooniani/dropsuit/blob/main/Support.md).
