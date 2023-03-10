@@ -17,9 +17,9 @@ clnstr(null/string)
 Input: 'myInputString' raw string, or null (to process the constructor input)
 
 Output:
-txt(): Trim, remove punctuation marks and numbers, convert to lower case.
-nmb(): Trim, remove punctuation marks, convert to lower case.
-pnc(): Trim, convert to lower case, remove extra punctuation marks.
+txt(): Trim. Remove punctuation marks. Remove numbers. Convert to lower case.
+nmb(): Trim. Remove punctuation marks. Keep numbers. Convert to lower case.
+pnc(): Trim. Keep punctuation, deleting extra punctuation marks. Keep numbers. Convert to lower case.
 ${divider}`;
 
   const displayInfoData = {

@@ -152,15 +152,9 @@ function display(dispout, input, output) {
   if (dispout == true) {
     console.log(
       description,
-      "\nInput:\n\n",
+      "\nInput:",
       [input],
-      "\n\nOutput:\n\nReturn: strTxt()\n\n1. Remove punctuation marks\n2. Remove numbers\n3. Trim string\n4. Convert to lower case.\n\n",
-      [output.txt()],
-      "\n\nReturn: strNmb()\n\n1. Remove punctuation marks\n2. (Keep numbers)\n3. Trim string\n4. Convert to lower case.\n\n",
-      [output.nmb()],
-      "\n\nReturn: strPnc()\n\n1. (Keep punctuation, remove extra marks)\n2. (Keep numbers)\n3. Trim string\n4. Convert to lower case.\n\n",
-      [output.pnc()],
-      "\n\nObject:\n\n",
+      "\n\nOutput:",
       output,
       "\n",
       line

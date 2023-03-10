@@ -17,7 +17,7 @@ console.log("\n\nInput:", [input]);
 describe("dropsuit-clnstr", () => {
   describe("clnstr()", () => {
     it("should return the cleaned string with txt()", () => {
-      let dsclnstr = new dropsuit_clnstr(input, false);
+      let dsclnstr = new dropsuit_clnstr(input, true);
       let clnstr_txt_output = dsclnstr.clnstr(null).txt();
       console.log("\n\nOutput clnstr().txt():", [clnstr_txt_output], "\n\n");
       assert.equal(clnstr_txt_output, expected_output_clnstr_txt);
